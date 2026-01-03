@@ -1,11 +1,3 @@
-def is_lucky_ticket(number):
-    num_str = str(number)
-    sum_first = sum(int(digit) for digit in num_str[:3])
-    sum_second = sum(int(digit) for digit in num_str[3:])
-    
-    return sum_first == sum_second
-
-number = int(input("\nВведите шестизначный номер билета: "))
 # Задание 1
 
 phrase_1 = input("Введите первую фразу: ")
