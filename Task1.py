@@ -121,7 +121,3 @@ if is_lucky_ticket(number):
     print("\nСчастливый билет!")
 else:
     print("\nНесчастливый билет")
-if is_lucky_ticket(number):
-    print("\nСчастливый билет!")
-else:
-    print("\nНесчастливый билет")
